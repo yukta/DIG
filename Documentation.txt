@@ -1,0 +1,204 @@
+startGameDEV
+
+start game developement
+
+Description
+
+startGameDEV generates game files and sets them to inital game variables.
+
+Pre-requisite
+
+startGameDEV is the first statement required to start game developement.
+
+---------------------------
+
+nameOfTheGame
+
+name of the game
+
+Description
+
+nameOfTheGame sets the name of the game. 
+
+Usage
+
+nameOfTheGame('Example')
+
+---------------------------
+
+gridSize
+
+size of the grid
+
+Description
+
+gridSize specifies the size of the grid for board games like chess, checker etc.
+
+Usage
+
+gridSize(4)
+
+----------------------------
+
+addQueen
+
+add Queen 
+
+Description
+
+addQueen adds the Queen chess piece into the existing pool of pieces. NOTE: The piece may or may not appear during a play.
+
+Usage
+
+addQueen
+
+----------------------------
+
+addKing
+
+add King 
+
+Description
+
+addKing adds the King chess piece into the existing pool of pieces. NOTE: The piece may or may not appear during a play.
+
+Usage
+
+addKing
+
+----------------------------
+
+addRook(X)
+
+add Rook 
+
+Description
+
+addRook adds the Rook chess piece into the existing pool of pieces. NOTE: The piece may or may not appear during a play. It follows the standard chess convention i.e. there can be atmost 2 Rook pieces.
+
+Usage
+
+addRook(2)
+
+----------------------------
+
+addBishop(X)
+
+add bishop 
+
+Description
+
+addBishop adds the Bishop chess piece into the existing pool of pieces. NOTE: The piece may or may not appear during a play. It follows the standard chess convention i.e. there can be atmost 2 Bishop pieces.
+
+Usage
+
+addBishop(1)
+
+----------------------------
+
+addKnight(X)
+
+add Knight 
+
+Description
+
+addKnight adds the Knight chess piece into the existing pool of pieces. NOTE: The piece may or may not appear during a play. It follows the standard chess convention i.e. there can be atmost 2 Knight pieces.
+
+Usage
+
+addKnight(2)
+
+----------------------------
+
+addPawn(X)
+
+add Pawn 
+
+Description
+
+addPawn adds the Pawn chess piece into the existing pool of pieces. NOTE: The piece may or may not appear during a play. It follows the standard chess convention i.e. there can be atmost 8 Pawn pieces.
+
+Usage
+
+addPawn(4)
+
+----------------------------
+
+keyForClear('X')
+
+Key for clear
+
+Description
+
+keyForClear assigns a key from the keyboard to clear the current selection on the game board.
+
+Usage
+
+KeyForClear('c')
+
+------------------------------
+
+keyForReset('X')
+
+Key for reset
+
+Description
+
+keyForReset assigns a key from the keyboard to shuffle the board configuration to a random one.
+
+Usage
+
+keyForReset('r')
+
+-------------------------------
+
+mustCapture
+
+Must capture
+
+Description
+
+mustCapture specifies that capturing a chess piece at every move is mandatory.
+
+Usage
+
+mustCapture
+
+--------------------------------
+
+addTimer
+
+Add timer
+
+Description
+
+addTimer adds a clock to the game.
+
+Usage
+
+addTimer
+
+----------------------------------
+
+applyChessLogic
+
+Apply Chess Logic
+
+Description
+
+applyChessLogic incorporates the standard chess playing logic into the game. For example legal moves, orientation etc.
+
+Usage
+
+applyChessLogic
+
+------------------------------------
+
+endGameDEV
+
+End game developement
+
+Description
+
+endGameDEV ends the game developement process and runs the corresponding constructed game.
+-------------------------------------
